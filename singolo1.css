@@ -248,12 +248,13 @@ img {
   background-repeat: no-repeat;
   background-position: 0 0;
   position: absolute;
-  top: 1px;
+  top: 2px;
   left: 0;
 }
 
 .our-services__item--design::before {
   background-image: url("assets/img/icon-pen.svg");
+  left: 1px;
 }
 
 .our-services__item--ideas::before {
@@ -266,6 +267,7 @@ img {
 
 .our-services__item--layout::before {
   background-image: url("assets/img/icon-phone.svg");
+  left: 1px;
 }
 
 .our-services__item--support::before {
